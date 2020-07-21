@@ -1,0 +1,40 @@
+.dash-card-body{
+    padding: 10px;
+}
+
+.dash-card-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: .9rem;
+}
+
+h3{
+    margin-top: 30px;
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+.middle-cont{
+    color: grey;
+    font-size: .8rem;
+    text-align: start;
+}
+
+.dash-view-button{
+    font-size: .7rem;
+    padding: 6px;
+    height: fit-content;
+    font-weight: 800;
+    border: 1px solid #d0d0d0;
+    color: #929292;
+}
+
+.date-button{
+    font-size: .7rem;
+    padding: 6px;
+    height: fit-content;
+    background-color: #ececff;
+    font-weight: 800;
+    border: none;
+}
