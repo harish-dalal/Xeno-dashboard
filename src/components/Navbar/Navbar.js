@@ -1,17 +1,18 @@
 import React , {Component} from 'react'
 import {Navbar , Nav , NavDropdown , Button , Form , FormControl} from 'react-bootstrap'
+import {ListNested} from 'react-bootstrap-icons'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 class NavbarCustom extends Component{
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
     }
 
     render(){
         return(
             <>
             <Navbar bg="light" expand="lg">
-            <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+            <ListNested size = '20px' style = {{cursor : 'pointer'}} onClick = {this.props.openSideMenu}/>            
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
