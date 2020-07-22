@@ -28,6 +28,7 @@ class App extends Component {
           <br/>
           <DashBoard/>
         </div>
+        <br/><br/>
       </div>
     );
   }
