@@ -1,0 +1,14 @@
+.btn-custom{
+    border: none;
+    padding: 0;
+}
+
+/* .btn:not(:disabled):not(.disabled){
+    padding: 0 !important;
+} */
+
+.btn-outline-primary:hover{
+    background-color: rgb(220, 232, 255);
+    color: white !important;
+}
+

@@ -1,5 +1,5 @@
 import React ,{Component} from "react";
-import {Container, Row, Col, Card, Form, Button , ProgressBar , ButtonGroup} from "react-bootstrap";
+import {Container, Row, Col, Card, Form, Button , ProgressBar , ButtonGroup } from "react-bootstrap";
 import {GeoAlt , GearFill , CodeSquare , Brush} from 'react-bootstrap-icons'
 import DashCard from './DashCard'
 import { withRouter } from "react-router-dom";
@@ -209,7 +209,9 @@ class Dashboard extends Component{
                 <Col sm><DashCard title = 'Author Sales'>
                 <div className = 'first-cont'>
                     <h2><span style={{fontSize : '1rem'}}>&#36;</span>60M</h2>
-                    <Chart options = {this.state.barNameLess.options} series = {this.state.barNameLess.series}  type = 'bar' width = '70%' height = '80%' />
+                    <div style = {{width : '70%' , height : 'auto' , display : 'flex' , justifyContent : 'center' , alignItems : 'center'}}>
+                    <Chart options = {this.state.barNameLess.options} series = {this.state.barNameLess.series}  type = 'bar' height = '100%' />
+                    </div>
                 </div>
                 </DashCard></Col>
                 <Col sm><DashCard title = 'Technologies'>
